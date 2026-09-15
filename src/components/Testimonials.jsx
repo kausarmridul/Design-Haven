@@ -29,7 +29,7 @@ const Testimonials = () => {
                   width={200}
                   loading="eager"
                   height={200}
-                  className="size-16 rounded-full object-cover object-center"
+                  className="min-w-16 min-h-16 max-h-16 max-w-16 rounded-full object-cover object-center"
                 />
                 <div>
                   <h4 className="font-heading text-gray-800 font-bold">

@@ -228,11 +228,11 @@ export const footerData = {
   },
 
   quickLinks: [
-    { label: "Home", page: "home" },
+    { label: "Home", page: "/" },
     { label: "About Us", page: "about" },
     { label: "Services", page: "services" },
     { label: "Portfolio", page: "portfolio" },
-    { label: "Our Team", page: "team" },
+    { label: "Our Team", page: "#" },
     { label: "Blog", page: "blog" },
   ],
 

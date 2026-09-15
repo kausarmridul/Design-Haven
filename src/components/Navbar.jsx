@@ -39,7 +39,7 @@ const Navbar = () => {
     },
   ];
 
-  const [openMenu, setOpenMenu] = useState(true);
+  const [openMenu, setOpenMenu] = useState(false);
 
   const pathname = usePathname();
 

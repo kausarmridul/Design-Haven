@@ -25,7 +25,7 @@ export default function RootLayout({ children }) {
       lang="en"
       className={`${montFont.className} ${cormFont.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col h-[2000px]">
+      <body className="min-h-full flex flex-col">
         <Navbar />
         {children}
         <Footer />
