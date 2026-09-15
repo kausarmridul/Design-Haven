@@ -44,7 +44,7 @@ const Navbar = () => {
   const pathname = usePathname();
 
   return (
-    <div className="w-full bg-white fixed shadow-lg z-50 p-4">
+    <div className="w-full fixed shadow-lg z-50 p-4 backdrop-blur-3xl">
       <div className="max-w-6xl mx-auto flex items-center justify-between">
         <Link href={"/"} className="flex items-center space-x-3">
           <div className="size-10 flex bg-accent rounded-full items-center justify-center">
