@@ -16,9 +16,9 @@ const TimeLine = () => {
             {timeline.map((item, idx) => (
               <div
                 key={idx}
-                className="flex flex-col md:flex-row gap-6 items-center"
+                className="flex flex-col md:flex-row gap-6 md:items-center"
               >
-                <div className="max-w-16 max-h-16 min-w-16 min-h-16 rounded-full bg-accent text-white flex items-center justify-center">
+                <div className="max-w-16 max-h-16 min-w-16 min-h-16 rounded-full bg-accent text-white flex items-center justify-center max-md:mx-auto">
                   {item.year}
                 </div>
                 <div className="bg-secondary p-6 rounded-2xl grow">
