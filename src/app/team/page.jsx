@@ -4,6 +4,10 @@ import { teamData } from "@/util/assets";
 import React from "react";
 import { FaUsers } from "react-icons/fa";
 
+export const metadata = {
+  title: "Team",
+};
+
 const Team = () => {
   return (
     <div>

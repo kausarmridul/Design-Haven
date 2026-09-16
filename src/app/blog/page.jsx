@@ -4,6 +4,10 @@ import { blogPosts } from "@/util/assets";
 import React from "react";
 import { FaArrowRight } from "react-icons/fa";
 
+export const metadata = {
+  title: "Blog",
+};
+
 const Blog = () => {
   return (
     <div>

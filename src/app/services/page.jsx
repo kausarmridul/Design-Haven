@@ -3,6 +3,10 @@ import ServiceCard from "@/components/ServiceCard";
 import ServiceProcess from "@/components/ServiceProcess";
 import React from "react";
 
+export const metadata = {
+  title: "Service",
+};
+
 const Services = () => {
   return (
     <div>

@@ -3,6 +3,10 @@ import ContactInfo from "@/components/ContactInfo";
 import PageHero from "@/components/PageHero";
 import React from "react";
 
+export const metadata = {
+  title: "Contact",
+};
+
 const Contact = () => {
   return (
     <div>

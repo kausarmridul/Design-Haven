@@ -4,6 +4,10 @@ import TimeLine from "@/components/TimeLine";
 import Values from "@/components/Values";
 import React from "react";
 
+export const metadata = {
+  title: "About",
+};
+
 const About = () => {
   return (
     <div>
